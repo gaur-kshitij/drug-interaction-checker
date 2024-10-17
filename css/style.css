@@ -1,77 +1,102 @@
+/* Global Styles */
+body {
+  background-color: #f4f7f6;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+/* Form and Main Content Styling */
+main {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 2em auto;
+  padding: 2em;
+  width: 80%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .forms {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  
-  #no_bottom {
-    margin-bottom: 0;
-    padding-left: 0;
-  }
-  
-  #padding_left_and_bottom {
-    padding-left: 10px;
-    padding-bottom: .1px;
-  }
-  
-  #padding_top {
-    padding-top: .5em;
-  }
-  
-  #submit {
-    font-size: 100%;
-    margin-top: 1em;
-  }
-  
-  body {
-    background-color: rgb(204, 195, 195)
-  }
-  
-  fieldset {
-    border-color: #f0e9ee;
-    border-radius: 4px;
-    border-style: solid;
-    border-width: 3px;
-  }
-  
-  header {
-    text-align: center;
-  }
-  
-  h2 {
-    margin-bottom: 0;
-    margin-top: .33em;
-  }
-  
-  h3 {
-    padding-left: 10px;
-  }
-  
-  label {
-    font-size: 125%;
-  }
-  
-  li {
-    list-style: none;
-  }
-  
-  legend {
-    font-size: 150%;
-    margin-top: .5em;
-  }
-  
+  margin: 0 auto;
+  padding: 1em;
+}
+
+fieldset {
+  border-color: #b0bec5;
+  border-radius: 5px;
+  padding: 1em;
+  margin-bottom: 1.5em;
+}
+
+legend {
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #34495e;
+}
+
+/* Form Elements */
+input[type="radio"], input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+label {
+  font-size: 1.1em;
+  color: #34495e;
+}
+
+#submit {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+#submit:hover {
+  background-color: #45a049;
+}
+
+/* Lists */
+li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
   main {
-    background-color: #ffffff;
-    border-radius: 8px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
+    width: 95%;
   }
-  
-  p {
-    margin: auto 1em 1em 1em;
-    text-indent: 50px;
-  }
-  
-  ul {
-    padding-left: 0;
-  }
+}
+/* footer */
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+  color: #555;
+}
+
+footer p {
+  font-size: 0.9em;
+}
